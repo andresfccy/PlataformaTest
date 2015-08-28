@@ -1,6 +1,6 @@
 ﻿'use strict';
 angular.module('plataformaTest.test')
-    .controller('TestController', ['$scope', '$http',
+    .controller('TestController', ['$scope', '$http', '',
     function ( $scope, $http ) {
         $scope.answered = false;
         $scope.title = "loading question...";
